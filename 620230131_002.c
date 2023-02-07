@@ -4,7 +4,7 @@
 
 int main(){
 	
-	char modelo[5][20];
+	char modelo[5][21];
 	int consumo[5], maisEconomico=0, posicao, i;
 	
 	for(i=0; i<4; i++){
