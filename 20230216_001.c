@@ -102,22 +102,21 @@ int main(){
 	char goleiro[3][120] = {"Felipe Alves", "Jandrei", "Rafael"};
 	char defesa[7][120] = {"Rafinha", "Igor Vinicius","Welington", "Arboleda", "Ferraresi", "Beraldo", "Diego Costa"};
 	char meio[8][120] = {"Nestor", "Neves", "Luan", "Pablo Maia" , "Mendez", "Galoppo", "Welington Rato", "Talles"};
-    char ataque[5][120] = {"Calleri", "Luciano", "Marcos Paulo", "David", "Erison"};
+	char ataque[5][120] = {"Calleri", "Luciano", "Marcos Paulo", "David", "Erison"};
     
     //avaliações
-    float avGol[3]= {7.5, 6, 7};
+	float avGol[3]= {7.5, 6, 7};
 	float avDef[7]= {7, 7.5, 6.5, 8.5, 8, 7, 8};
 	float avMeio[8]= {7, 6, 6.5, 6, 7.5, 8.5, 9.5, 6};
 	float avAta[5]= {8.5, 7.5, 6, 6.5, 4}; 
 
-
-    printf("\n*** TIME TITULAR ***\n");
+	printf("\n*** TIME TITULAR ***\n");
 
 	//chama funções para pegar os melhores
-    melhorGoleiro(goleiro, avGol);
-    melhorDef(defesa, avDef);
-    melhorMeio(meio, avMeio);
-    melhorAtaque(ataque, avAta);
+    	melhorGoleiro(goleiro, avGol);
+    	melhorDef(defesa, avDef);
+    	melhorMeio(meio, avMeio);
+    	melhorAtaque(ataque, avAta);
     
-    return 1;
+	return 1;
 }
